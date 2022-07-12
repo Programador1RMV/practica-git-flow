@@ -6,7 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
-<body>
-  
+<body style="margin: 0px; padding: 0px">
+  <div
+    style="
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    "
+  >
+    <label>Primer Numero</label>
+    <input id="num1" type="number" />
+    <label>Segundo Numero</label>
+    <input id="num2" type="number" />
+    <label>Resultado</label>
+    <input id="resultado" readonly type="text" />
+    <input type="button" value="sumar" onclick="sumar()" />
+  </div>
 </body>
+<script src="./index.js"></script>
 </html>
